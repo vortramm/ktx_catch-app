@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1791284584,
-  "upstreamCommit": "a094665d24efd6f38f3642520306d8c525026c3a",
+  "revision": 1791451488,
+  "upstreamCommit": "45941ed77254fd28acac3f83fefb698725f0348d",
   "pykorailVersion": "0.2.2",
   "host": "smart.letskorail.com",
   "userAgent": "korailtalk",
