@@ -1,13 +1,13 @@
 {
-  "schemaVersion": 1,
-  "revision": 1791821961,
-  "upstreamCommit": "e1686722de617d27a1565de2e1e9b0a049bdbd6a",
-  "pykorailVersion": "0.2.2",
+  "schemaVersion": 2,
+  "revision": 1793013887,
+  "upstreamCommit": "7436aefe54c9fe17cc6d121efabe184e0981bdb1",
+  "pykorailVersion": "0.6.1",
   "host": "smart.letskorail.com",
   "userAgent": "korailtalk",
   "device": "AD",
-  "appVersion": "250722001",
-  "appDisplayVersion": "7.0.8",
+  "appVersion": "261028001",
+  "appDisplayVersion": "7.1.0",
   "apiKey": "korail1234567890",
   "sidKey": "2485dd54d9deaa36",
   "endpoints": {
@@ -30,15 +30,27 @@
       "/classes/com.korail.mobile.trn.prcFare.do",
       "/classes/com.korail.mobile.login.Login"
     ],
-    "appId": "com.korail.talk",
-    "asValue": "[38ff229cb34c7dda8e28220a2d750cce]",
-    "osType": "Android",
-    "sdkVersion": "v1.0.3",
-    "table": "3FE9jgRD4KdCyuawklqGJYmvfMn15P7US8XbxeLQtWT6OicBAopINs2Vh0HZrz",
-    "radix": 161,
-    "modulus": 30,
-    "chunk": 2,
-    "prefix": "bEeEP"
+    "prefix": "201",
+    "secretHex": "9a330fd663b62c5f888a7ce76ac7202d93f646b4e0bd605cd4183278ca4ca888",
+    "alphabet": "TeFOuQBxj1qRUHwKkymSY8l3psvCzAL5tofNcihg9WDG072EZ4bVad6rJnPXIM",
+    "sdkVersion": "2.0.1",
+    "appId": "korailplus",
+    "opId": "288904575606514493",
+    "kl": "990094375841594426",
+    "ec": "978212327729758430",
+    "manufacturer": "samsung",
+    "board": "kalama",
+    "strongbox": 1,
+    "defaultSdkInt": 35,
+    "sdkByAndroid": {
+      "10": 29,
+      "11": 30,
+      "12": 31,
+      "13": 33,
+      "14": 34,
+      "15": 35,
+      "16": 36
+    }
   },
   "errors": {
     "needLogin": [
@@ -53,6 +65,9 @@
     "soldOut": [
       "ERR211161",
       "IRT010110"
+    ],
+    "passwordChange": [
+      "WRC000420"
     ],
     "accessRestricted": [
       "-2000"
